@@ -30,18 +30,17 @@ extension DetalsVC: UITableViewDelegate , UITableViewDataSource {
     func tableView(_ tableView: UITableView,commit editingStyle: UITableViewCell.EditingStyle,forRowAt indexPath: IndexPath) {
         
         if editingStyle == .delete {
-            let user = persons?[indexPath.row]
-            guard let user = user else { return }
+            let person = persons?[indexPath.row]
+            guard let person = person else { return }
             persons?.remove(at: indexPath.row)
-            context.delete(user)
             tableView.deleteRows(at: [indexPath], with: .automatic)
+            
+            // Delete From Core Data Object
+            context.delete(person)
             PersistentStorage.shared.saveContext()
             
         }
-        
-        
     }
-    
 }
 
 

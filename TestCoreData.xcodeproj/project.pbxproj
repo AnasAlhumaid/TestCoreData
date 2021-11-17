@@ -70,13 +70,13 @@
 			children = (
 				CC8C48412744B196007AD527 /* Controllers */,
 				CC8C48422744B1A2007AD527 /* Model */,
-				CC8C483F2744AD85007AD527 /* CoreDataSupportFiles */,
+				CC2BC2BF27421A0E00C4390E /* Main.storyboard */,
 				CC2BC2B927421A0E00C4390E /* AppDelegate.swift */,
 				CC8C483D2744ACFA007AD527 /* SceneDelegate.swift */,
-				CC2BC2BF27421A0E00C4390E /* Main.storyboard */,
 				CC2BC2C527421A0F00C4390E /* Assets.xcassets */,
 				CC2BC2C727421A0F00C4390E /* LaunchScreen.storyboard */,
 				CC2BC2CA27421A0F00C4390E /* Info.plist */,
+				CC8C483F2744AD85007AD527 /* CoreDataSupportFiles */,
 				CC2BC2C227421A0E00C4390E /* TestCoreData.xcdatamodeld */,
 			);
 			path = TestCoreData;

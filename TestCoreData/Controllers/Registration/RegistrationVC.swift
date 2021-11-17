@@ -24,11 +24,13 @@ class RegistrationVC: UIViewController {
         performSegue(withIdentifier: "toDetals", sender: nil)
     }
     @IBAction func singUp(_ sender: UIButton) {
+        
         if saveCoreData(name: userName.text ?? "", age: password.text ?? "") {
             performSegue(withIdentifier: "toDetals", sender: nil)
         } else {
             print("please try Again!!")
         }
+        
     }
     func saveCoreData(name:String,age:String) -> Bool {
         
@@ -36,6 +38,7 @@ class RegistrationVC: UIViewController {
         guard let age: Int16 = Int16(age) else {return false}
         let person = Person(name: name, age: age)
         
+        // Create Database
         cdPerson.create(person: person)
         
         return true

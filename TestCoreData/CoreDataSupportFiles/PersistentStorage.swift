@@ -19,13 +19,11 @@ class PersistentStorage {
         let container = NSPersistentContainer(name: "TestCoreData")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
-
                 fatalError("Unresolved error \(error), \(error.userInfo)")
             }
         })
         return container
     }()
-    
     // MARK: - Core Data Saving support
 
     func saveContext() {
@@ -38,17 +36,13 @@ class PersistentStorage {
             }
         }
     }
-
-    func fetchManagedObject<T: NSManagedObject>(managedObject: T.Type) -> [T]?
-    {
+    func fetchManagedObject<T: NSManagedObject>(managedObject: T.Type) -> [T]? {
         do {
             guard let result = try PersistentStorage.shared.context.fetch(managedObject.fetchRequest()) as? [T] else {return nil}
             return result
-
         } catch let error {
             debugPrint(error)
         }
-
         return nil
     }
 }

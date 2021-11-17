@@ -10,14 +10,9 @@ import CoreData
 
 @objc(CDPerson)
 public class CDPerson: NSManagedObject {
-    
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<CDPerson> {
-        return NSFetchRequest<CDPerson>(entityName: "CDPerson")
-    }
 
     @NSManaged public var name: String?
     @NSManaged public var age: Int16
-    
     
     func create(person: Person) {
 
