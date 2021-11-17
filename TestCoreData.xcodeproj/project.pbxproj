@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		CC2BC2BA27421A0E00C4390E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2BC2B927421A0E00C4390E /* AppDelegate.swift */; };
-		CC2BC2BC27421A0E00C4390E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2BC2BB27421A0E00C4390E /* SceneDelegate.swift */; };
-		CC2BC2BE27421A0E00C4390E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2BC2BD27421A0E00C4390E /* ViewController.swift */; };
+		CC2BC2BE27421A0E00C4390E /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2BC2BD27421A0E00C4390E /* RegistrationVC.swift */; };
 		CC2BC2C127421A0E00C4390E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2BC2BF27421A0E00C4390E /* Main.storyboard */; };
 		CC2BC2C427421A0E00C4390E /* TestCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC2BC2C227421A0E00C4390E /* TestCoreData.xcdatamodeld */; };
 		CC2BC2C627421A0F00C4390E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2BC2C527421A0F00C4390E /* Assets.xcassets */; };
 		CC2BC2C927421A0F00C4390E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2BC2C727421A0F00C4390E /* LaunchScreen.storyboard */; };
+		CC2BC2D1274224C200C4390E /* CDPerson+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2BC2D0274224C200C4390E /* CDPerson+CoreDataClass.swift */; };
+		CC2BC2D3274267D600C4390E /* DetalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2BC2D2274267D600C4390E /* DetalsVC.swift */; };
+		CC8C48362743D033007AD527 /* PersistentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8C48352743D033007AD527 /* PersistentStorage.swift */; };
+		CC8C483C2744AB09007AD527 /* DetalsVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8C483B2744AB09007AD527 /* DetalsVC+TableView.swift */; };
+		CC8C483E2744ACFA007AD527 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8C483D2744ACFA007AD527 /* SceneDelegate.swift */; };
+		CC8C48452744B25A007AD527 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8C48442744B25A007AD527 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC2BC2B627421A0E00C4390E /* TestCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC2BC2B927421A0E00C4390E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC2BC2BB27421A0E00C4390E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC2BC2BD27421A0E00C4390E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC2BC2BD27421A0E00C4390E /* RegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
 		CC2BC2C027421A0E00C4390E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC2BC2C327421A0E00C4390E /* TestCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestCoreData.xcdatamodel; sourceTree = "<group>"; };
 		CC2BC2C527421A0F00C4390E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC2BC2C827421A0F00C4390E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC2BC2CA27421A0F00C4390E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2BC2D0274224C200C4390E /* CDPerson+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDPerson+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CC2BC2D2274267D600C4390E /* DetalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalsVC.swift; sourceTree = "<group>"; };
+		CC8C48352743D033007AD527 /* PersistentStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStorage.swift; sourceTree = "<group>"; };
+		CC8C483B2744AB09007AD527 /* DetalsVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetalsVC+TableView.swift"; sourceTree = "<group>"; };
+		CC8C483D2744ACFA007AD527 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC8C48442744B25A007AD527 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +68,11 @@
 		CC2BC2B827421A0E00C4390E /* TestCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				CC8C48412744B196007AD527 /* Controllers */,
+				CC8C48422744B1A2007AD527 /* Model */,
+				CC8C483F2744AD85007AD527 /* CoreDataSupportFiles */,
 				CC2BC2B927421A0E00C4390E /* AppDelegate.swift */,
-				CC2BC2BB27421A0E00C4390E /* SceneDelegate.swift */,
-				CC2BC2BD27421A0E00C4390E /* ViewController.swift */,
+				CC8C483D2744ACFA007AD527 /* SceneDelegate.swift */,
 				CC2BC2BF27421A0E00C4390E /* Main.storyboard */,
 				CC2BC2C527421A0F00C4390E /* Assets.xcassets */,
 				CC2BC2C727421A0F00C4390E /* LaunchScreen.storyboard */,
@@ -68,6 +80,57 @@
 				CC2BC2C227421A0E00C4390E /* TestCoreData.xcdatamodeld */,
 			);
 			path = TestCoreData;
+			sourceTree = "<group>";
+		};
+		CC8C483A2744AAED007AD527 /* Detals */ = {
+			isa = PBXGroup;
+			children = (
+				CC2BC2D2274267D600C4390E /* DetalsVC.swift */,
+				CC8C483B2744AB09007AD527 /* DetalsVC+TableView.swift */,
+			);
+			path = Detals;
+			sourceTree = "<group>";
+		};
+		CC8C483F2744AD85007AD527 /* CoreDataSupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CC8C48402744B013007AD527 /* ManagedObjectModels */,
+				CC8C48352743D033007AD527 /* PersistentStorage.swift */,
+			);
+			path = CoreDataSupportFiles;
+			sourceTree = "<group>";
+		};
+		CC8C48402744B013007AD527 /* ManagedObjectModels */ = {
+			isa = PBXGroup;
+			children = (
+				CC2BC2D0274224C200C4390E /* CDPerson+CoreDataClass.swift */,
+			);
+			path = ManagedObjectModels;
+			sourceTree = "<group>";
+		};
+		CC8C48412744B196007AD527 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC8C48432744B1DF007AD527 /* Registration */,
+				CC8C483A2744AAED007AD527 /* Detals */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CC8C48422744B1A2007AD527 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC8C48442744B25A007AD527 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC8C48432744B1DF007AD527 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				CC2BC2BD27421A0E00C4390E /* RegistrationVC.swift */,
+			);
+			path = Registration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +205,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC2BC2C427421A0E00C4390E /* TestCoreData.xcdatamodeld in Sources */,
-				CC2BC2BE27421A0E00C4390E /* ViewController.swift in Sources */,
+				CC8C483E2744ACFA007AD527 /* SceneDelegate.swift in Sources */,
+				CC2BC2D3274267D600C4390E /* DetalsVC.swift in Sources */,
+				CC2BC2BE27421A0E00C4390E /* RegistrationVC.swift in Sources */,
+				CC2BC2D1274224C200C4390E /* CDPerson+CoreDataClass.swift in Sources */,
 				CC2BC2BA27421A0E00C4390E /* AppDelegate.swift in Sources */,
-				CC2BC2BC27421A0E00C4390E /* SceneDelegate.swift in Sources */,
+				CC8C48452744B25A007AD527 /* Person.swift in Sources */,
+				CC8C483C2744AB09007AD527 /* DetalsVC+TableView.swift in Sources */,
+				CC8C48362743D033007AD527 /* PersistentStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
